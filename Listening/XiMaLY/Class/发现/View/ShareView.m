@@ -1,0 +1,14 @@
+//
+//  ShareView.m
+//  Listening
+//
+//  Created by Apple on 16/5/9.
+//  Copyright © 2016年 HansRove. All rights reserved.
+//
+
+#import "ShareView.h"
+
+@implementation ShareView
+
+
+@end

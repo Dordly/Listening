@@ -1,0 +1,7 @@
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/BmobSDK"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/AVOSCloud" "${PODS_ROOT}/Headers/Public/BmobSDK" "${PODS_ROOT}/Headers/Public/FMDB" "${PODS_ROOT}/Headers/Public/IQKeyboardManager" "${PODS_ROOT}/Headers/Public/SVProgressHUD"
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/AVOSCloud"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/AVOSCloud" -isystem "${PODS_ROOT}/Headers/Public/BmobSDK" -isystem "${PODS_ROOT}/Headers/Public/FMDB" -isystem "${PODS_ROOT}/Headers/Public/IQKeyboardManager" -isystem "${PODS_ROOT}/Headers/Public/SVProgressHUD"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"AVOSCloud" -l"FMDB" -l"IQKeyboardManager" -l"SVProgressHUD" -l"icucore" -l"sqlite3" -l"z" -l"z.1.2.5" -framework "AVFoundation" -framework "BmobSDK" -framework "CFNetwork" -framework "CoreGraphics" -framework "CoreLocation" -framework "CoreTelephony" -framework "Foundation" -framework "MediaPlayer" -framework "MobileCoreServices" -framework "QuartzCore" -framework "Security" -framework "SystemConfiguration" -framework "UIKit"
+PODS_ROOT = ${SRCROOT}/Pods
